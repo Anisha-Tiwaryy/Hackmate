@@ -1,6 +1,6 @@
-# 🚀 HackMate
+# HackMate
 
-**HackMate** is a full-stack MERN platform for students to form and join **college-verified hackathon teams** — with real-time chat, role-based access, and a full application workflow.
+HackMate is a full-stack MERN platform for students to form and join college-verified hackathon teams — with real-time chat, role-based access, and a full application workflow.
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Stack](https://img.shields.io/badge/stack-MERN-blue)
@@ -11,20 +11,20 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎓 **College Email Verification** — Firebase Auth validates `.edu` / college domains so only real students can join
-- 🔐 **Role-Based Access** — Firebase Admin SDK enforces team leader vs. member permissions
-- 👤 **Developer Profiles** — Showcase skills, role preferences, and past hackathon history
-- 🏆 **Hackathon Listings** — Browse and filter hackathons by theme, date, and platform
-- 📋 **Custom Application Forms** — Applicants list skills and motivation; team leaders review and accept/reject
-- 💬 **Real-Time Group & Private Chat** — Socket.IO with admin-controlled message deletion
-- 📜 **Certificate Uploads & History** — Upload completion certificates; persistent post-event records
-- 🔍 **Skill-Based Filtering** — Find teammates by skill tags (React, ML, UI/UX, etc.)
+- College Email Verification — Firebase Auth validates college domains so only real students can join
+- Role-Based Access — Firebase Admin SDK enforces team leader vs. member permissions
+- Developer Profiles — Showcase skills, role preferences, and past hackathon history
+- Hackathon Listings — Browse and filter hackathons by theme, date, and platform
+- Custom Application Forms — Applicants list skills and motivation; team leaders review and accept/reject
+- Real-Time Group and Private Chat — Socket.IO with admin-controlled message deletion
+- Certificate Uploads and History — Upload completion certificates with persistent post-event records
+- Skill-Based Filtering — Find teammates by skill tags (React, ML, UI/UX, etc.)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer       | Technology                                      |
 |-------------|--------------------------------------------------|
@@ -38,7 +38,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 hackmate/
@@ -69,33 +69,33 @@ hackmate/
 │   └── socket/
 │       └── socketHandler.js    # Socket.IO event logic
 ├── docs/
-│   └── TESTING.md              # 20+ manual test cases
-├── .env.example                # Environment variable template
+│   └── TESTING.md              # 26 manual test cases
+├── .env.example
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Manual test cases documented covering end-to-end user flows:
 
-- ✅ College email verification (valid, invalid domains)
-- ✅ Firebase Auth — signup, login, token expiry
-- ✅ Protected route access (with/without valid token)
-- ✅ Team creation, editing, deletion (owner vs. non-owner)
-- ✅ Application submission, duplicate prevention
-- ✅ Accept/reject workflow and status updates
-- ✅ Real-time chat — delivery, reconnection, admin deletion
-- ✅ Certificate upload and hackathon history persistence
-- ✅ Hackathon listing filters and search edge cases
+- College email verification (valid and invalid domains)
+- Firebase Auth — signup, login, token expiry
+- Protected route access (with and without valid token)
+- Team creation, editing, deletion (owner vs. non-owner)
+- Application submission and duplicate prevention
+- Accept/reject workflow and status updates
+- Real-time chat — delivery, reconnection, admin deletion
+- Certificate upload and hackathon history persistence
+- Hackathon listing filters and search edge cases
 
-> Full test case documentation: [`docs/TESTING.md`](docs/TESTING.md)
+Full test case documentation: [docs/TESTING.md](docs/TESTING.md)
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js v18+
@@ -106,8 +106,8 @@ Manual test cases documented covering end-to-end user flows:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/hackmate.git
-cd hackmate
+git clone https://github.com/Anisha-Tiwaryy/Hackmate.git
+cd Hackmate
 
 # Install server dependencies
 cd server && npm install
@@ -156,26 +156,26 @@ App runs at `http://localhost:3000`
 
 ---
 
-## 🔁 CI/CD
+## CI/CD
 
 GitHub Actions pipeline runs on every push to `main` and `dev` branches:
-- ✅ Dependency install
-- ✅ TypeScript type check
-- ✅ ESLint
-- ✅ Build verification
+- Dependency install
+- TypeScript type check
+- ESLint
+- Build verification
 
 See [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Firebase Auth with college email verification
 - [x] Role-based access (Firebase Admin SDK)
 - [x] Team creation and application workflow
 - [x] Real-time chat (Socket.IO)
 - [x] Certificate uploads and hackathon history
-- [x] Manual test suite (20+ test cases)
+- [x] Manual test suite (26 test cases)
 - [x] GitHub Actions CI/CD pipeline
 - [ ] TypeScript migration (in progress)
 - [ ] Email notifications
@@ -184,7 +184,7 @@ See [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 | Service    | Platform          |
 |------------|-------------------|
@@ -195,14 +195,14 @@ See [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Anisha Tiwary**  
-B.Tech — Electronics and Computer Science, KIIT University  
-[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) · [GitHub](https://github.com/YOUR_USERNAME)
+B.Tech — Electronics and Computer Science, KIIT University
+[LinkedIn](https://www.linkedin.com/in/anisha-tiwaryyy) · [GitHub](https://github.com/Anisha-Tiwaryy)
